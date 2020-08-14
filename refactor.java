@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-class refactor
+class refactoring
 {
 	static int c=0;
 	public static void main(String args[])throws IOException
@@ -25,7 +25,7 @@ class refactor
 				break;
 			}
 		}
-		refactor r=new refactor();
+		refactoring r=new refactoring();
 		System.out.println("The Original File:\n");
 		r.display("code");
 		r.modify(r.extract(v));
