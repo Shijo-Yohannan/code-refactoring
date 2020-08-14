@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-class t
+class refactor
 {
 	static int c=0;
 	public static void main(String args[])throws IOException
@@ -25,12 +25,12 @@ class t
 				break;
 			}
 		}
-		t o=new t();
+		refactor r=new refactor();
 		System.out.println("The Original File:\n");
-		o.display("code");
-		o.modify(o.extract(v));
+		r.display("code");
+		r.modify(r.extract(v));
 		System.out.println("\nThe Refactored File:\n");
-		o.display("refactor");
+		r.display("refactor");
 	}
 
 	public String extract(String v)
