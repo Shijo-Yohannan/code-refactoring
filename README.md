@@ -15,6 +15,11 @@ Download java Compiler : [Eclipse](https://www.eclipse.org/downloads/), [Blue J]
 ## Usage:
 
 Run [Refactor.java](https://github.com/Shijo-Yohannan/code-refactoring/blob/master/refactor.java).
+- Files:
+  - [code](https://github.com/Shijo-Yohannan/code-refactoring/blob/master/code): Contains code to be changed
+  - [q](https://github.com/Shijo-Yohannan/code-refactoring/blob/master/q): Quick sort alogrithm for refactor.java to apply into the refactoring of code
+  - refactor- This file will be created with the running of code to hold the refactored code.
+  
 
 ## Built with:
 
